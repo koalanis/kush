@@ -56,5 +56,8 @@ fn help() {
   println!("
 kush - kaleb's unique shell
 -----------------------------
+echo - writes to stout 
+exit - terminates shell session
+
   ")
 }

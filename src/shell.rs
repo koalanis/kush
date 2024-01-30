@@ -16,6 +16,8 @@ pub fn shell_loop() {
     if status == kush::ShellStatus::ExitInvoked {
       break;
     }
+    println!("");
+    let _ = io::stdout().flush();
   }
 }
 
